@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_padding"
+            android:columnCount="6"
+            android:useDefaultMargins="false"
+            android:background="@color/Lavender">
+    <TextView
+        android:text="@string/departure"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:text="@string/arrival"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:text="@string/duration"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:text="@string/transfers"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:text="@string/walking"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:text="@string/transports"
+        android:textSize="@dimen/small_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_marginRight="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:id="@+id/departure_time_text_view"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:id="@+id/arrival_time_text_view"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:id="@+id/duration_text_view"
+        android:textSize="@dimen/large_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:id="@+id/transfer_count_text_view"
+        android:textSize="@dimen/large_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <TextView
+        android:id="@+id/walking_distance_text_view"
+        android:textSize="@dimen/large_text_size"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="left"
+        android:background="@color/Lavender"
+        />
+
+    <LinearLayout
+        android:id="@+id/transport_types_container"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/grid_margin"
+        android:layout_gravity="center_vertical"
+        android:background="@color/Lavender">
+    </LinearLayout>
+</GridLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings">
+    <PreferenceCategory android:title="@string/trip">
+        <se.ocarina.straightonstrait.ui.AutoCompletePreference
+            android:key="@string/pref_key_origin"
+            android:title="@string/title_source_text_view"
+            android:summary="@string/summary_source_text_view"/>
+        <se.ocarina.straightonstrait.ui.AutoCompletePreference
+            android:key="@string/pref_key_destination"
+            android:title="@string/title_destination_text_view"
+            android:summary="@string/summary_destination_text_view"/>
+    </PreferenceCategory>
+</PreferenceScreen>
